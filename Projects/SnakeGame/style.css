@@ -1,0 +1,21 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 168, 226);
+    align-items: center;
+    height:100vh;
+    margin: 0;
+}
+.container{
+    text-align: center;
+}
+canvas{
+    background: #ffb0f3;
+    display: block;
+    margin:20px auto;
+}
+#score{
+    font-size: 20px;
+    color:#333 ;
+}

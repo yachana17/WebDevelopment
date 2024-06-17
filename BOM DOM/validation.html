@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myform">
+        <input type="password" name="userpass" onKeyup="validation()" value=""/>
+        Strength:<span id="my">no strength</span>
+      
+    </form>
+    
+</body>
+<script>
+    function validation(){
+        var msg;
+        msg=(document.myform.userpass.value.length>5)?"good":"poor"
+        documnet.getElementById("my").innerHTML=msg;
+}
+</script>
+
+</html>

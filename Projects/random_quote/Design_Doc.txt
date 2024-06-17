@@ -1,0 +1,24 @@
+Project---->Architecture ; LLD; HLD
+Random Quote Generator;
+
+Requriment :button
+button-->on clicking quotes
+shown
+
+tech--->HTML(UI)
+CSS--->(styling)
+js---->(functionality)
+
+guessgame Project
+randomly generate number --->3 chances
+u lost
+
+Guess a no between 1 to 100
+ 
+Output---->correct
+      ---->less and greater 
+
+      html 
+      CSS
+      js
+      

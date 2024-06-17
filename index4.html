@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script >
+        function clickEvent(){
+            document.write("hii from js");
+        }
+        </script>
+    <form> 
+        <input type="button" onclick="clickEvent()" value="who?">
+    </form> -->
+    
+    <!-- <script>
+        function showdata(name,amt){
+            document.write("name  and amt ",name,amt);
+            
+
+        }
+        function getdata(callback){
+            var name=prompt("what is your name");
+            var amt=prompt("what is your amt");
+            callback(name,amt);
+
+            
+        }
+        getdata(showdata);
+
+    </script> -->
+    <script>
+        var p=new Promise(function(resolve,reject){
+            var x=5;
+            if(x==4){
+                resolve("Executed succesfully")
+            }
+            else reject("Rejected");
+        });
+        p.then(function(fromResolve){
+            document.write("resolved");
+
+        }).catch(function(fromReject){
+            document.write("rejected")
+        })
+    </script>
+
+</body>
+</html>

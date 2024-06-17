@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Enter Name:<input type="text" name="name" id="name"/><br>
+        Enter Password:<input type="text" name="pass" id="pass"/>
+       <input type="button" onclick="submit()" value="submit">
+     </form>
+</body>
+<script>
+    function submit(){
+        var name=documnet.getElementById("name").value;
+        var pas=document.getElementById("pass").value;
+     if(name==""){
+        alert("please enter name");
+     }else if(pass==""){
+        alert("please enter password");
+     }
+     else if(6>pas.length){
+        alert("please enter 6 digit password");
+    }else{
+        ("form submit sucessfully");
+    }
+     }
+    
+</script>
+</html>
